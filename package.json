@@ -1,0 +1,29 @@
+{
+  "name": "@red-cup-engineering/solana-services-section",
+  "version": "0.1.0",
+  "description": "Credential-free, finalized Solana mainnet account observations with atomic provider evidence.",
+  "type": "module",
+  "exports": {
+    "./public-solana-read": "./src/public-solana-read.mjs"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "check": "node --check src/public-solana-read.mjs && node --check src/public-native-balance-observation.mjs && node --check test/public-solana-read.test.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@solana/web3.js": "1.98.4",
+    "json-bigint": "1.0.0"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "keywords": [
+    "solana",
+    "rpc",
+    "observation"
+  ],
+  "license": "UNLICENSED"
+}
