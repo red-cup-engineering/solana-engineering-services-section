@@ -2,6 +2,11 @@
   "name": "@red-cup-engineering/solana-services-section",
   "version": "0.1.0",
   "description": "Credential-free, finalized Solana mainnet account observations with atomic provider evidence.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-systems-engineering-services-section.git",
+    "directory": "services/computer-blockchain-system-services-section/services/solana-services-section"
+  },
   "type": "module",
   "exports": {
     "./public-solana-read": "./src/public-solana-read.mjs"
