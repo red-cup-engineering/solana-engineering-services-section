@@ -4,8 +4,7 @@
   "description": "Credential-free, finalized Solana mainnet account observations with atomic provider evidence.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-systems-engineering-services-section.git",
-    "directory": "services/computer-blockchain-system-services-section/services/solana-services-section"
+    "url": "git+https://github.com/red-cup-engineering/solana-services-section.git"
   },
   "type": "module",
   "exports": {
