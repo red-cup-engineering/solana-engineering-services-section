@@ -7,7 +7,7 @@
 [![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
 <!-- 561-group-standards:badges:end -->
 
-`@red-cup-engineering/solana-services-section` observes public Solana mainnet
+`@red-cup-engineering/solana-engineering-services-section` observes public Solana mainnet
 addresses without credentials, signing material, transactions, or mutations.
 
 The public reader admits a bounded address roster, verifies the provider's
@@ -20,7 +20,7 @@ balances are explicitly outside the observation and reported as unobserved.
 
 ```js
 import { observePublicNativeBalances } from
-  "@red-cup-engineering/solana-services-section/public-native-balance-observation";
+  "@red-cup-engineering/solana-engineering-services-section/public-native-balance-observation";
 
 const report = await observePublicNativeBalances([
   "11111111111111111111111111111111",
