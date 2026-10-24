@@ -1,5 +1,5 @@
 {
-  "name": "@red-cup-engineering/solana-engineering-services-section",
+  "name": "@red-cup-engineering/solana-services-section",
   "version": "0.1.0",
   "description": "Credential-free, finalized Solana mainnet account observations with atomic provider evidence.",
   "repository": {
